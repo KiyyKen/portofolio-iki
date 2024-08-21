@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Pribadi</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Portofolio Pribadi</h1>
-    <p>Selamat datang di halaman resmi saya</p>
+    <div class="header-content">
+        <h1>Nama Anda</h1>
+        <p>Profesional dalam [Bidang Anda]</p>
+    </div>
 </header>
 
 <nav>
-    <a href="#bio">Biografi</a>
-    <a href="#social">Media Sosial</a>
-    <a href="#gallery">Galeri Foto</a>
+    <ul>
+        <li><a href="#bio">Biografi</a></li>
+        <li><a href="#social">Media Sosial</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+    </ul>
 </nav>
 
-<div class="container">
+<main>
     <section id="bio" class="bio">
         <h2>Biografi</h2>
-        <p>Halo! Saya [Nama Anda], seorang profesional di bidang [bidang pekerjaan atau minat]. Saya memiliki pengalaman dalam [sebutkan keahlian atau proyek yang menonjol]. Saat ini, saya sedang fokus pada [fokus atau tujuan karir saat ini].</p>
+        <p>Halo! Saya [Nama Anda], seorang profesional yang berfokus pada [bidang pekerjaan atau minat]. Saya telah berpengalaman dalam [sebutkan keahlian atau proyek yang menonjol]. Tujuan saya saat ini adalah [fokus atau tujuan karir saat ini].</p>
     </section>
 
     <section id="social" class="social">
         <h2>Media Sosial</h2>
-        <a href="https://twitter.com/yourusername" class="social-link twitter">Twitter</a>
-        <a href="https://linkedin.com/in/yourusername" class="social-link linkedin">LinkedIn</a>
-        <a href="https://github.com/yourusername" class="social-link github">GitHub</a>
+        <div class="social-links">
+            <a href="https://twitter.com/yourusername" class="social-icon twitter">Twitter</a>
+            <a href="https://linkedin.com/in/yourusername" class="social-icon linkedin">LinkedIn</a>
+            <a href="https://github.com/yourusername" class="social-icon github">GitHub</a>
+        </div>
     </section>
 
     <section id="gallery" class="gallery">
-        <h2>Galeri Foto</h2>
+        <h2>Galeri</h2>
         <div class="gallery-grid">
-            <img src="foto1.jpg" alt="Deskripsi Foto 1">
-            <img src="foto2.jpg" alt="Deskripsi Foto 2">
-            <img src="foto3.jpg" alt="Deskripsi Foto 3">
+            <div class="gallery-item"><img src="foto1.jpg" alt="Foto 1"></div>
+            <div class="gallery-item"><img src="foto2.jpg" alt="Foto 2"></div>
+            <div class="gallery-item"><img src="foto3.jpg" alt="Foto 3"></div>
         </div>
     </section>
-</div>
+</main>
 
 <footer>
-    <p>&copy; 2024 [Nama Anda]. All Rights Reserved.</p>
+    <p>&copy; 2024 [Nama Anda]. Semua Hak Dilindungi.</p>
 </footer>
 
 </body>
